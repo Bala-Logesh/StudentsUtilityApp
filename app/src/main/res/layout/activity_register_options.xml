@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#008080"
+    tools:context=".RegisterOptions">
+
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select one to continue.."
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/tdadd"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. CALCULATE MY CGPA" />
+
+    <TextView
+        android:id="@+id/tdview"
+        android:layout_below="@id/tdadd"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. TO-DO LIST" />
+
+    <TextView
+        android:id="@+id/contadd"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tdview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. MY PROFILE" />
+
+
+
+
+</RelativeLayout>

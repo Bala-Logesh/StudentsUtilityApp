@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/rfn"
+        android:ems="20"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="FIRST NAME"
+        />
+
+    <EditText
+        android:id="@+id/rln"
+        android:ems="20"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:hint="LAST NAME"
+        />
+
+    <EditText
+        android:id="@+id/rd"
+        android:ems="20"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:hint="DEPARTMENT"
+        />
+
+    <EditText
+        android:id="@+id/ry"
+        android:ems="20"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:hint="YEAR"
+        />
+
+
+    <EditText
+        android:id="@+id/run"
+        android:ems="20"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:hint="username"
+        />
+
+    <EditText
+        android:id="@+id/rp"
+        android:layout_width="wrap_content"
+        android:ems="20"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        />
+
+
+    <EditText
+        android:id="@+id/rcp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="20"
+        android:layout_marginTop="20dp"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="REGISTER" />
+
+    <TextView
+        android:id="@+id/rlogin"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IF REGISTERED,CLICK HERE TO LOGIN" />
+
+</LinearLayout>
