@@ -170,6 +170,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="575" y="304" key="AndroidCreateXmlResourceDialog/0.0.1440.900@0.0.1440.900" timestamp="1602215805819" />
+    <state x="237" y="52" key="CommitChangelistDialog2" timestamp="1602225896855">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="237" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1602225896855" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1602219669378">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -190,5 +194,9 @@
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="390" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.805@0.23.1440.805" timestamp="1602216849264" />
+    <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602225909792">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1602225909792" />
   </component>
 </project>
