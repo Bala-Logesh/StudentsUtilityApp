@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="LOG IN PAGE"
+        android:text="LOGIN PAGE"
         android:textAlignment="center"
         android:textColorHighlight="@color/colorPrimaryDark"
         android:textSize="40dp" />
