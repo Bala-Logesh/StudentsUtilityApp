@@ -18,7 +18,8 @@ import java.util.ArrayList;
 
 public class Option1 extends AppCompatActivity {
     float incredits = 0;
-    float ingrade = 0, g = 0;
+    float ingrade = 0;
+    int g= 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,7 +57,6 @@ public class Option1 extends AppCompatActivity {
             public void onClick(View view) {
                 sub.add("Credit : " + String.valueOf(spin.getSelectedItem()) + " and Grade : " + String.valueOf(spin2.getSelectedItem()));
                 adaptersub.notifyDataSetChanged();
-                incredits = Integer.valueOf(String.valueOf(spin.getSelectedItem()));
                 switch (String.valueOf(spin2.getSelectedItem())){
                     case "O":
                         g = 10;
